@@ -28,6 +28,10 @@ main{
     height: 100%;
     width: calc(100% - 200px);
     background-color: rgb(47, 39, 39);
+    overflow: scroll;
+}
+img{
+    width: 100%;
 }
 
 /* player */
@@ -79,7 +83,7 @@ h2{
     list-style-type: none;
     color: grey;
     gap: 10px;
-    margin-left: 400px;
+    justify-content: center;
 }
 #container-imgup{
     display: flex;
@@ -91,7 +95,17 @@ h2{
     padding-block: 20px;
     background-color: rgb(52, 52, 250);
     border: white 1px solid;
+    
 }
 img{
     width: 100%;
 }
+p{
+    font-size: 10px;
+    color: grey;
+}
+h3{
+    color: white;
+    font-size: 15px;
+}
+
