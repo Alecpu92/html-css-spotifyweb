@@ -108,6 +108,9 @@ img{
     width: 100%;
     padding: 10px;
 }
+img:hover{
+    background-image: url(https://e7.pngegg.com/pngimages/528/587/png-clipart-organic-food-french-toast-whole-foods-market-breakfast-play-button-angle-food.png);
+}
 p{
     font-size: 10px;
     color: grey;
@@ -137,7 +140,19 @@ h3{
 #icon-play:hover{
     height: 30px;
 }
-
 /* media query */
+
+/* @media screen and (max-width 550px) {
+    li{
+        display: none
+    }
+}
+
+@media screen and (max-width 750px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
 
 
