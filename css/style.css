@@ -58,6 +58,9 @@ footer{
     background-color:  rgba(0, 0, 0, 0.5);
     height: 30px;
 }
+#button-up:hover{
+    height: 40px;
+}
 
 /* elementi sider */
 #icon-logo{
@@ -71,6 +74,9 @@ ul{
     list-style-type:none;
     line-height: 20px;
     font-size: 10px;
+}
+li:hover{
+    color: white;
 }
 h2{
     color: white;
@@ -126,7 +132,6 @@ h3{
     width: 60px;
     border: solid 1px grey;
 }
-
-
-
-
+#icon-play:hover{
+    height: 30px;
+}
